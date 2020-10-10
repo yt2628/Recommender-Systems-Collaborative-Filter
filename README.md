@@ -13,6 +13,16 @@ As the amount of available educational data keeps growing, organizing and making
 
 Collaborative filters are a class of algorithm used to suggest content to a given user (filtering) by leveraging information about many users (collaboration). There are many flavors of collaborative filter and they are very commonly used in scenarios where there is incomplete information about a user's preferences such as Netflix suggestions or product recommendations on Amazon.
 
+## Data
+Data used in this project were collected from 44 students in the class, who gave their "Difficulty" and "Interest" ratings on 2 randomly selected topics out of the total 6 topics in a course. The ratings were on a Likert-scale from 1 to 5, with 1 representing "I think this topic sounds very easy"/"I have very little interest in this topic" and 5 representing "I think this topic sounds very difficult"/"I am very interested in this topic."
+
+## Packages Required
+```
+install.packages("lsa") 
+install.packages("tidyr")
+install.packages("dplyr")
+```
+
 ### References
 
 [Drachsler, H., Verbert, K., Santos, O. C., & Manouselis, N. (2015). Panorama of recommender systems to support learning. In *Recommender Systems Handbook* (pp. 421-451). Springer: New York, NY.](https://lirias.kuleuven.be/bitstream/123456789/476545/1/TEL_RecSys.pdf)
